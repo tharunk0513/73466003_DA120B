@@ -1,0 +1,30 @@
+SPAM MESSAGE DETECTION SYSTEM
+MODEL EVALUATION RESULTS
+
+Dataset
+-------
+Total messages: 5,572
+Ham messages: 4,825
+Spam messages: 747
+
+Model 1: Multinomial Naive Bayes
+--------------------------------
+Accuracy: 95.16%
+Precision: 100.00%
+Recall: 63.76%
+F1-score: 77.87%
+
+Model 2: Logistic Regression
+----------------------------
+Accuracy: 96.59%
+Precision: 99.12%
+Recall: 75.17%
+F1-score: 85.50%
+
+Model Selection
+---------------
+Logistic Regression was selected for the final application because it achieved
+the higher F1-score among the two tested models.
+
+The Logistic Regression model is used by the Streamlit application for
+final SMS spam classification.
