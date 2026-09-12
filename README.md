@@ -89,11 +89,11 @@ A Streamlit web interface allows users to enter an SMS message and receive a pre
 
 ```bash
 pip install -r requirements.txt
-
+```
 3. Run the Streamlit application:
 ```bash
 streamlit run app.py
-
+```
 4. Open the local URL shown in the terminal, usually:
 ```text
 http://localhost:8501
