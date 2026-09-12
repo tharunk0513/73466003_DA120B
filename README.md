@@ -98,7 +98,7 @@ streamlit run app.py
 ```text
 http://localhost:8501
 
-
+```
 ## Limitations
 - The dataset is relatively small and may not represent all types of modern SMS messages.
 - The dataset contains more ham messages than spam messages, so the classes are imbalanced.
