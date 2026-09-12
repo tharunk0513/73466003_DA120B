@@ -94,3 +94,10 @@ streamlit run app.py
 ```text
 http://localhost:8501
 
+
+## Limitations
+- The dataset is relatively small and may not represent all types of modern SMS messages.
+- The dataset contains more ham messages than spam messages, so the classes are imbalanced.
+- The model may perform less accurately on messages with new slang, unusual wording, or content that differs from the training data.
+- The system is designed for SMS message classification and may not generalize well to other types of text.
+
