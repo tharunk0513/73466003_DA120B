@@ -59,6 +59,10 @@ The dataset file used in this project contains 5,572 messages after obtaining th
 
 Logistic Regression achieved the higher F1-score and was selected for the final application.
 
+### Logistic Regression Confusion Matrix
+
+![Logistic Regression Confusion Matrix](logistic_confusion_matrix.png)
+
 ## Application
 
 A Streamlit web interface allows users to enter an SMS message and receive a prediction:
