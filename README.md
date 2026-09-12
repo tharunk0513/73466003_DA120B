@@ -11,6 +11,12 @@ The project uses a labelled SMS spam dataset containing 5,572 messages.
 - Ham messages: 4,825
 - Spam messages: 747
 
+### Dataset Source
+
+The dataset is based on the SMS Spam Collection dataset from the UCI Machine Learning Repository.
+
+The dataset file used in this project contains 5,572 messages after obtaining the project copy used for this implementation.
+
 ## Methodology
 
 1. Load the SMS dataset using Pandas.
