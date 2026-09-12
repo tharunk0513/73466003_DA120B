@@ -1,5 +1,12 @@
 import streamlit as st
 import pickle
+import re
+
+def preprocess_message(text):
+    text = text.lower()
+    text = re.sub(r"[^\w\s]", "", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
 
 st.title("Spam Message Detection System")
 
@@ -15,7 +22,8 @@ if st.button("Check Message"):
     if message.strip() == "":
         st.warning("Please enter a message.")
     else:
-        message_tfidf = vectorizer.transform([message])
+        clean_message = preprocess_message(message)
+        message_tfidf = vectorizer.transform([clean_message])
         prediction = model.predict(message_tfidf)[0]
 
         if prediction == 1:
