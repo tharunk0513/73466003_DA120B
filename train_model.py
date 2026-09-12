@@ -125,7 +125,7 @@ plt.ylabel("Score")
 plt.title("Model Performance Comparison")
 plt.ylim(0, 1.1)
 plt.legend()
-
+plt.savefig("model_performance_comparison.png", dpi=300, bbox_inches="tight")
 plt.show()
 import pickle
 
