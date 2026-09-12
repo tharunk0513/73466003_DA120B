@@ -77,3 +77,20 @@ A Streamlit web interface allows users to enter an SMS message and receive a pre
 - `tfidf_vectorizer.pkl` - Saved TF-IDF vectorizer
 - `requirements.txt` - Required Python packages
 - `.gitignore` - Files excluded from Git
+## How to Run
+
+1. Create and activate a Python virtual environment.
+
+2. Install the required packages:
+
+```bash
+pip install -r requirements.txt
+
+3. Run the Streamlit application:
+```bash
+streamlit run app.py
+
+4. Open the local URL shown in the terminal, usually:
+```text
+http://localhost:8501
+
