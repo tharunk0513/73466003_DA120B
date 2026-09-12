@@ -101,6 +101,7 @@ ConfusionMatrixDisplay(
 ).plot()
 
 plt.title("Logistic Regression Confusion Matrix")
+plt.savefig("logistic_confusion_matrix.png", dpi=300, bbox_inches="tight")
 plt.show()
 models = ["Naive Bayes", "Logistic Regression"]
 
