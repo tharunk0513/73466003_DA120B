@@ -62,6 +62,7 @@ Logistic Regression achieved the higher F1-score and was selected for the final 
 ### Logistic Regression Confusion Matrix
 
 ![Logistic Regression Confusion Matrix](logistic_confusion_matrix.png)
+![Model Performance Comparison](model_performance_comparison.png)
 
 ## Application
 
