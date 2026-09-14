@@ -132,7 +132,7 @@ with col2:
 
     st.dataframe(
         summary_data,
-        use_container_width=True,
+        width="stretch",
         hide_index=True
     )
 
@@ -184,7 +184,7 @@ performance_data = pd.DataFrame({
 
 st.dataframe(
     performance_data,
-    use_container_width=True,
+    width="stretch",
     hide_index=True
 )
 
@@ -279,7 +279,7 @@ confusion_matrix_data = pd.DataFrame(
 
 st.dataframe(
     confusion_matrix_data,
-    use_container_width=True
+    width="stretch"
 )
 
 st.write(
